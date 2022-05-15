@@ -1,0 +1,90 @@
+#calculatordiv{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -180px;
+}
+
+#contactinfo{
+  font-family: "Orbitron", sans-serif;
+  font-size: 10px;
+  position: absolute;
+  bottom: 0%;
+  left: 2%;
+  color: rgb(0, 43, 25)
+}
+
+table {
+  border-top: 9px solid rgb(197, 194, 10);
+  border-left: 9px solid rgb(197, 194, 10);
+  border-bottom: 9px solid rgb(136, 134, 8);
+  border-right: 9px solid rgb(136, 134, 8);
+  background-color: rgb(180, 177, 8);
+}
+
+#disp {
+  width: 325px;
+  background-color: rgb(188, 205, 149);
+}
+
+/* input.disp:active {
+  width: 325px;
+  background-color: rgb(188, 205, 149);
+} */
+
+body {
+  background-color: rgb(219, 108, 80);
+}
+
+input {
+  position: relative;
+  left: 5px;
+  top: 5px;
+  border: none;
+  color: rgb(0, 114, 104);
+  background-color: rgb(250, 250, 250);
+  border-radius: 4px;
+  width: 60px;
+  height: 50px;
+  margin: 5px 0px 16px 5px;
+  font-size: 22px;
+  box-shadow: 0px 0px 8px 2px rgb(241, 238, 46), -2px 4px #ff0000;
+  /* font-family: "Orbitron", sans-serif;*/
+  /* font-family: 'Rubik Glitch', cursive; */
+  font-family: 'Press Start 2P', cursive;
+}
+
+input:hover {
+  text-shadow: 0px 0px 1px black;
+}
+
+input:active {
+  box-shadow: none;
+  transform: translate(-2px, 5px);
+}
+input.disp:active {
+  transform: translate(0px, 0px);
+}
+
+.operator {
+  background-color: rgb(203, 252, 252);
+}
+
+#clear {
+  background-color: rgba(250, 160, 100, 0.8);
+}
+
+input.disp {
+  max-width: 303px;
+  color: rgb(0, 63, 37);
+  box-shadow: 0px 0px 8px 1px rgb(197, 194, 4);
+  border: 1px solid black;
+}
+table {
+  width: 351px;
+}
+
+a:link, a:visited {
+  color: rgb(0, 48, 28)
+}
